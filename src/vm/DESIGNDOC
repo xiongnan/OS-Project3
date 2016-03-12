@@ -1,5 +1,5 @@
        	       	    +---------------------------+
-		    |		CS 140		|
+		    |		CS 153 		|
 		    | PROJECT 3: VIRTUAL MEMORY	|
 		    |	   DESIGN DOCUMENT	|
 		    +---------------------------+
@@ -8,8 +8,7 @@
 
 >> Fill in the names and email addresses of your group members.
 
-Ryan Wilson <rtwilson@stanford.edu>
-Sambasevam Shanmugam <sambasevam@gmail.com>
+Nan Xiong <nanxiong2014@gmail.com>
 
 ---- PRELIMINARIES ----
 
@@ -399,33 +398,14 @@ the quarter.
 >> In your opinion, was this assignment, or any one of the three problems
 >> in it, too easy or too hard?  Did it take too long or too little time?
 
-This assignment was by far the hardest. The most challenging part was the
-page swapping and synchronizing it properly. Debugging the page tests took
-me 2 out of 5 straight days we spent on it. However, this assignment was
-very rewarding and showed the challenges behind implementing virtual memory.
-
 >> Did you find that working on a particular part of the assignment gave
 >> you greater insight into some aspect of OS design?
-
-As stated above, working on the eviction, swapping and synchronization of
-those two elements was the most challenging part (well...the
-debugging). It definitely gave me deeper insight into the challenges of
-swapping while running multiple processes at one time.
 
 >> Is there some particular fact or hint we should give students in
 >> future quarters to help them solve the problems?  Conversely, did you
 >> find any of our guidance to be misleading?
 
-Start early and pay attention to the small details / edge cases that could
-occur in your code. Most of my bug fixes were a couple lines at most and
-were seemingly minor changes. However, those minor fixes turned out to be
-the things that made the tests pass.
-
 >> Do you have any suggestions for the TAs to more effectively assist
 >> students, either for future quarters or the remaining projects?
-
-Give more design hints for virtual memory. I found myself stumped for the
-first day or so, trying to figure out how to even start implementing such
-a large virtual memory system.
 
 >> Any other comments?
